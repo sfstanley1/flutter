@@ -1,9 +1,24 @@
 Rails.application.routes.draw do
+  
+  #Defines Routes for pages
+  
+  
+  #Define root url i.e index
+  
+  root 'pages#index' 
+
+  get '/home' => 'pages#home'
+
+  get '/profile' => 'pages#profile'
+  
+  get '/explorer' => 'pages#explorer'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # #root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
