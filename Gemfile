@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#We wil use device gem for authentication and user accounts 
+
+gem 'devise'
+
 #for twitter UI Components
 
 gem 'bootstrap-sass','~> 3.3.5'
