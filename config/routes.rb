@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   get '/home' => 'pages#home'
 
-  get '/profile' => 'pages#profile'
+  get '/user/:id' => 'pages#profile'
   
   get '/explorer' => 'pages#explorer'
   
